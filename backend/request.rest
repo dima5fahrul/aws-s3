@@ -1,0 +1,11 @@
+GET http://localhost:3000/mahasiswa
+
+###
+POST http://localhost:3000/mahasiswa
+Content-Type: application/json
+
+{
+  "name": "admin",
+  "email": "admin@habit.id",
+  "gender": "Male"
+}
